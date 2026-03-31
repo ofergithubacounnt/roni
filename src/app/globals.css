@@ -21,9 +21,6 @@
   --color-ink-muted: #8E8EA0;
   --color-ink-inverse: #FFFFFF;
 
-  --font-heading: var(--font-heebo), sans-serif;
-  --font-body: var(--font-heebo), sans-serif;
-  --font-accent: var(--font-outfit), sans-serif;
 
   --animate-rainbow-shift: rainbow-shift 6s ease infinite;
   --animate-fade-in-up: fade-in-up 0.6s ease-out forwards;
@@ -115,13 +112,16 @@ html {
 }
 
 body {
-  font-family: var(--font-heebo), sans-serif;
   color: var(--color-ink-primary);
   background: var(--color-surface-white);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heebo), sans-serif;
+  font-family: inherit;
+}
+
+.font-accent {
+  font-family: var(--font-outfit), sans-serif;
 }
 
 ::-webkit-scrollbar {

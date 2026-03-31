@@ -1,13 +1,26 @@
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { Heebo, Outfit } from "next/font/google";
 import { routing } from "@/i18n/routing";
-import { heebo, outfit } from "@/lib/fonts";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { FloatingButtons } from "@/components/layout/FloatingButtons";
 import { LocalBusinessJsonLd } from "@/components/seo/JsonLd";
 import "@/app/globals.css";
+
+const heebo = Heebo({
+  subsets: ["hebrew", "latin"],
+  display: "swap",
+  weight: ["300", "400", "500", "700", "800", "900"],
+});
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+  display: "swap",
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -33,7 +46,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} dir={isRTL ? "rtl" : "ltr"} className="scroll-smooth">
       <body
-        className={`${heebo.variable} ${outfit.variable} font-body min-h-screen flex flex-col`}
+        className={`${heebo.className} ${outfit.variable} min-h-screen flex flex-col`}
       >
         <NextIntlClientProvider messages={messages}>
           <LocalBusinessJsonLd locale={locale} />
