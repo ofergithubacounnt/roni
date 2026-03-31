@@ -9,7 +9,6 @@ import { RainbowButton } from "@/components/ui/RainbowButton";
 import { Menu } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { BUSINESS } from "@/lib/constants";
-import Image from "next/image";
 
 export function Header() {
   const t = useTranslations("nav");
@@ -42,13 +41,11 @@ export function Header() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2 shrink-0">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src="/images/logo.png"
               alt={BUSINESS.name[locale as "he" | "en"]}
-              width={140}
-              height={56}
               className="h-10 md:h-12 w-auto object-contain"
-              priority
             />
           </Link>
 

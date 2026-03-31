@@ -55,13 +55,11 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
           className="mb-6"
         >
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src="/images/logo.png"
             alt="Roni HaTzabai Logo"
-            width={280}
-            height={112}
-            className="mx-auto w-48 md:w-64 h-auto object-contain mb-4 drop-shadow-lg"
-            priority
+            className="mx-auto w-48 md:w-64 h-auto object-contain mb-4 drop-shadow-[0_2px_10px_rgba(0,0,0,0.15)]"
           />
         </motion.div>
 

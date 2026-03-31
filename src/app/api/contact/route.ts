@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResend() {
+  return new Resend(process.env.RESEND_API_KEY);
+}
 
 const rateLimit = new Map<string, { count: number; resetTime: number }>();
 
@@ -40,7 +42,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { data, error } = await resend.emails.send({
+    const { data, error } = await getResend().emails.send({
       from:
         process.env.FROM_EMAIL ||
         "Roni HaTzabai Website <onboarding@resend.dev>",
