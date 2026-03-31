@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "title": "Roni HaTzabai | Professional Painting & Spackling in Modi'in",
+    "description": "Roni HaTzabai — 20 years of professional painting, spackling, and moisture repair services in Modi'in and the Shfela region. Free estimates!",
+    "keywords": "painter Modi'in, spackling, apartment painting, moisture repair, office painting, Roni HaTzabai, painting services Israel"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "getQuote": "Free Estimate"
+  },
+  "hero": {
+    "title": "Roni HaTzabai",
+    "subtitle": "Professional Painting & Spackling Services",
+    "area": "Modi'in & Surroundings | Shfela Region",
+    "cta": "Get a Free Estimate",
+    "badge1": "20 Years Experience",
+    "badge2": "Israeli Crew",
+    "badge3": "High Availability",
+    "badge4": "Premium Materials"
+  },
+  "services": {
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "A wide range of painting and spackling services at the highest level",
+    "emptyApartment": {
+      "title": "Empty Apartment Painting",
+      "description": "Professional painting of empty apartments with a special discount of up to 30%. Perfect results guaranteed without worrying about furniture.",
+      "discount": "Up to 30% off"
+    },
+    "occupiedApartment": {
+      "title": "Occupied Apartment Painting",
+      "description": "Full coverage of furniture with protective nylon. Floor protection included. Thorough cleanup upon completion. You keep living — we handle everything."
+    },
+    "moisture": {
+      "title": "Moisture & Mold Repair",
+      "description": "Professional treatment of moisture damage and mold, including plaster repairs. Using specialized anti-mold materials and dedicated paints."
+    },
+    "offices": {
+      "title": "Office Painting",
+      "description": "Professional office painting without disrupting daily operations. After-hours painting available by prior arrangement."
+    },
+    "stairwells": {
+      "title": "Stairwells & Common Areas",
+      "description": "Painting stairwells and shared spaces. Clean, organized work with impressive results."
+    },
+    "spackle": {
+      "title": "American Spackle",
+      "description": "Wall smoothing with American spackle for a flawless, smooth finish. The result: walls as smooth as glass."
+    }
+  },
+  "whatIncludes": {
+    "sectionTitle": "What Does Apartment Painting Include?",
+    "sectionSubtitle": "A professional, organized process from start to finish — this is how we work",
+    "step1Title": "Preparation & Setup",
+    "step1Desc": "Covering all furniture with protective nylon for maximum protection. We treat your furniture as if it were our own.",
+    "step2Title": "Floor Protection",
+    "step2Desc": "Covering floors with cardboard rolls or special mats to prevent any dirt or damage.",
+    "step3Title": "Crack Opening & Scraping",
+    "step3Desc": "Opening cracks and scraping peeling paint as needed — proper surface preparation is the foundation for perfect work.",
+    "step4Title": "Primer Coat (Bondroll)",
+    "step4Desc": "Applying a Bondroll primer coat to create a strong, durable base that ensures perfect paint adhesion.",
+    "step5Title": "Crack Treatment",
+    "step5Desc": "Professional crack treatment using special crack bandages — preventing the problem from recurring.",
+    "step6Title": "Spackle Repairs",
+    "step6Desc": "Filling holes and spackle repairs. Every small imperfection receives precise treatment.",
+    "step7Title": "Wall Smoothing (On Request)",
+    "step7Desc": "Wall smoothing with American spackle upon client request — for an exceptionally smooth, perfect result.",
+    "step8Title": "Sanding & Surface Preparation",
+    "step8Desc": "Sanding walls as needed and preparing the surface for paint. A critical step for professional results.",
+    "step9Title": "Painting — Two Coats",
+    "step9Desc": "Painting ceilings and walls with premium acrylic paint, in your chosen color, with two coats for perfect, uniform coverage.",
+    "step10Title": "Final Cleanup",
+    "step10Desc": "Thorough cleanup upon completion. You return to a clean, organized, and refreshed home."
+  },
+  "moistureSection": {
+    "sectionTitle": "Moisture & Mold Damage Treatment",
+    "sectionSubtitle": "Professional, thorough solutions for moisture and mold problems in bathrooms and throughout the home",
+    "step1": "Mold treatment using specialized, dedicated materials",
+    "step2": "Spackle repairs as needed",
+    "step3": "Bondroll primer coat application",
+    "step4": "Surface preparation for painting",
+    "step5": "Ceiling and wall painting with premium anti-mold paint",
+    "step6": "Thorough cleanup upon completion"
+  },
+  "advantages": {
+    "sectionTitle": "Why Choose Roni HaTzabai?",
+    "item1Title": "20 Years Experience",
+    "item1Desc": "Professional expertise accumulated over two decades of fieldwork",
+    "item2Title": "Israeli Crew",
+    "item2Desc": "Professional Israeli team, clear communication, and complete reliability",
+    "item3Title": "High Availability",
+    "item3Desc": "We arrive quickly, work efficiently, and finish on time",
+    "item4Title": "Premium Materials",
+    "item4Desc": "Using only the highest quality paints and materials available on the market",
+    "item5Title": "Fair Pricing",
+    "item5Desc": "Honest, fair prices for every budget — no surprises",
+    "item6Title": "30% Off Empty Apartments",
+    "item6Desc": "Special discount of up to 30% for painting empty apartments"
+  },
+  "quoteForm": {
+    "sectionTitle": "Get a Free Estimate",
+    "sectionSubtitle": "No charge, no obligation — fill in your details and we'll get back to you soon",
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email (optional)",
+    "serviceType": "Service Type",
+    "serviceOption1": "Empty Apartment Painting",
+    "serviceOption2": "Occupied Apartment Painting",
+    "serviceOption3": "Moisture & Mold Repair",
+    "serviceOption4": "Office Painting",
+    "serviceOption5": "Stairwells",
+    "serviceOption6": "American Spackle",
+    "serviceOption7": "Other",
+    "address": "Property Address",
+    "notes": "Additional Details / Notes",
+    "submit": "Send Quote Request",
+    "sending": "Sending...",
+    "successTitle": "Request Sent Successfully!",
+    "successMessage": "Thank you! We'll get back to you shortly with a quote.",
+    "errorMessage": "An error occurred. Please try again or call us directly.",
+    "selectService": "Select a service type"
+  },
+  "stats": {
+    "years": "Years Experience",
+    "projects": "Projects",
+    "satisfaction": "Satisfaction"
+  },
+  "about": {
+    "heroTitle": "Our Story",
+    "heroSubtitle": "20 years of professionalism, reliability, and passion for paint",
+    "storyTitle": "Who We Are",
+    "storyP1": "Roni HaTzabai is a family business with 20 years of experience in the painting and spackling industry. We specialize in painting apartments, offices, stairwells, and repairing moisture and mold damage.",
+    "storyP2": "We believe every wall tells a story, and every coat of paint is an opportunity to renew and refresh your home. We work only with the highest quality materials available on the market, because we never compromise on quality.",
+    "storyP3": "Our team is an Israeli crew — professional, reliable, and communicative. When you choose Roni HaTzabai, you choose peace of mind.",
+    "valuesTitle": "Our Values",
+    "value1Title": "Professionalism",
+    "value1Desc": "Every project receives the full attention and skill we've built over two decades",
+    "value2Title": "Reliability",
+    "value2Desc": "What we promise — we deliver. Always.",
+    "value3Title": "Cleanliness",
+    "value3Desc": "We leave your apartment cleaner than we found it",
+    "value4Title": "Transparency",
+    "value4Desc": "Clear, detailed quotes with no surprises and no hidden costs"
+  },
+  "gallery": {
+    "title": "Our Work",
+    "subtitle": "Browse our completed projects — every project is a story of renewal",
+    "filterAll": "All",
+    "filterApartments": "Apartments",
+    "filterOffices": "Offices",
+    "filterMoisture": "Moisture & Mold",
+    "filterSpackle": "Spackle",
+    "noImages": "Photos coming soon..."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you! Call, send a WhatsApp message, or fill out the form",
+    "callUs": "Call Now",
+    "whatsapp": "Send WhatsApp Message",
+    "phone": "050-8898584",
+    "addressLabel": "Our Address",
+    "address": "Levona 17/4, Modi'in, Israel",
+    "availability": "High availability — we're here for you",
+    "freeQuote": "Free estimate — no charge, no obligation"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Built with love",
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info"
+  }
+}
