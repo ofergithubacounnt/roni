@@ -115,9 +115,13 @@ html {
 }
 
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-heebo), sans-serif;
   color: var(--color-ink-primary);
   background: var(--color-surface-white);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heebo), sans-serif;
 }
 
 ::-webkit-scrollbar {
