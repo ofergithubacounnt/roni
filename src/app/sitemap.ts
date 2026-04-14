@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://roni.co.il";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://roni-roan.vercel.app";
   const locales = ["he", "en"];
   const pages = ["", "/about", "/gallery", "/contact"];
 

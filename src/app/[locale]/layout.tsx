@@ -45,6 +45,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={isRTL ? "rtl" : "ltr"} className="scroll-smooth">
+      <head>
+        <meta name="google-site-verification" content="wXfXnGqagAL0ju3wy2QorBV6YvM-A5i04A4iawcqCG8" />
+      </head>
       <body
         className={`${heebo.className} ${outfit.variable} min-h-screen flex flex-col`}
       >
